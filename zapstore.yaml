@@ -1,0 +1,32 @@
+# Zapstore listing for SEQ1 SESSIONS (SESSIONS-ZAPSTORE-2026-10-21, healer:b8d543e8).
+# Mirrored to the public metadata-only repo github.com/mndwave/seq1-sessions-releases, which is how the Zapstore relay
+# whitelists the release npub below. scripts/zapstore-publish.sh adds release_source (the local fdroid-flavour APK).
+pubkey: npub18g370psjxd0f3ymd24rt2cj2fkjdl2hnxy42z8nzsghychzvep2qwrx49v
+repository: https://github.com/mndwave/seq1-sessions-releases
+name: SEQ1 SESSIONS
+summary: "Start with a chat, grow into a computer. Invitation only."
+description: |
+  **SEQ1 SESSIONS is invitation only.** You need an invitation from SEQ1 to sign in; without one the app opens at the
+  sign-in screen and goes no further.
+
+  One conversation follows you across your phone and your Mac, and when you need more it works in your own private
+  environment: files you choose, a full terminal (SSH and mosh into your own environment), and access to email drafts
+  and your calendar only as you grant it.
+
+  Sign in with the link or six-digit code in your invitation email, or approve with your own Nostr key in Amber
+  (NIP-55) or another remote signer (NIP-46). This build contains no Google libraries: no Google Play services and no
+  Firebase; notifications come over UnifiedPush or the app's own live connection.
+
+  The app and the SEQ1 service it talks to (terminal-api.seq1.net) are not open source.
+tags:
+  - productivity
+  - development
+  - nostr
+license: Proprietary
+website: https://sessions.seq1.net
+icon: ./fastlane/metadata/android/en-US/images/icon.png
+supported_nips:
+  - "44"
+  - "46"
+  - "55"
+  - "98"
