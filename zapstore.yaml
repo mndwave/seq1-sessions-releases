@@ -2,7 +2,7 @@
 # Mirrored to the public metadata-only repo github.com/mndwave/seq1-sessions-releases, which is how the Zapstore relay
 # whitelists the release npub below. scripts/zapstore-publish.sh adds release_source (the local fdroid-flavour APK).
 pubkey: npub18g370psjxd0f3ymd24rt2cj2fkjdl2hnxy42z8nzsghychzvep2qwrx49v
-repository: https://github.com/mndwave/seq1-sessions-releases
+# No `repository`: Zapstore reads it as a source repo and badges the app "Open source", which it is not.
 name: SEQ1 SESSIONS
 summary: "Start with a chat, grow into a computer. Invitation only."
 description: |
