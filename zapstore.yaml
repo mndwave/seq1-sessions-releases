@@ -1,23 +1,27 @@
-# Zapstore listing for SEQ1 SESSIONS (SESSIONS-ZAPSTORE-2026-10-21, healer:b8d543e8).
+# Zapstore listing for SEQ1 Sessions (SESSIONS-ZAPSTORE-2026-10-21, healer:b8d543e8).
 # Mirrored to the public metadata-only repo github.com/mndwave/seq1-sessions-releases, which is how the Zapstore relay
 # whitelists the release npub below. scripts/zapstore-publish.sh adds release_source (the local fdroid-flavour APK).
 pubkey: npub18g370psjxd0f3ymd24rt2cj2fkjdl2hnxy42z8nzsghychzvep2qwrx49v
 # No `repository`: Zapstore reads it as a source repo and badges the app "Open source", which it is not.
-name: SEQ1 SESSIONS
-summary: "Start with a chat, grow into a computer. Invitation only."
+# Brand casing: SEQ1 is always upper case, Sessions is title case.
+name: SEQ1 Sessions
+summary: "Start with a chat. Grow into a computer."
 description: |
-  **SEQ1 SESSIONS is invitation only.** You need an invitation from SEQ1 to sign in; without one the app opens at the
-  sign-in screen and goes no further.
+  Start with a chat. Grow into a computer.
 
-  One conversation follows you across your phone and your Mac, and when you need more it works in your own private
-  environment: files you choose, a full terminal (SSH and mosh into your own environment), and access to email drafts
-  and your calendar only as you grant it.
+  **One conversation, everywhere.** Your chat follows you across your phone and your Mac, so you can pick up exactly
+  where you left off.
 
-  Sign in with the link or six-digit code in your invitation email, or approve with your own Nostr key in Amber
-  (NIP-55) or another remote signer (NIP-46). This build contains no Google libraries: no Google Play services and no
-  Firebase; notifications come over UnifiedPush or the app's own live connection.
+  **A computer when you need one.** Ask for more and SEQ1 Sessions works in your own private environment: files you
+  choose, a full terminal (SSH and mosh), and email drafts and your calendar, only as far as you grant access.
 
-  The app and the SEQ1 service it talks to (terminal-api.seq1.net) are not open source.
+  **Sign in your way.** Use the link or six-digit code from your invitation email, or approve with your own Nostr key
+  in Amber (NIP-55) or another remote signer (NIP-46). There is no password to look after.
+
+  **Private by design.** This build contains no Google libraries: no Google Play services and no Firebase.
+  Notifications arrive over UnifiedPush or the app's own live connection.
+
+  SEQ1 Sessions is available by invitation. Ask for yours at sessions.seq1.net.
 tags:
   - productivity
   - development

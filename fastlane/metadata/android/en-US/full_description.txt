@@ -1,5 +1,6 @@
-<p><b>SEQ1 SESSIONS is invitation only.</b> You need an invitation from SEQ1 to sign in; without one the app opens at the sign-in screen and goes no further.</p>
-<p>Start with a chat. Grow into a computer. One conversation follows you across your phone and your Mac, and when you need more it works in your own private environment: files you choose, a full terminal (SSH and mosh into your own environment), and access to email drafts and your calendar only as you grant it.</p>
-<p>Sign in with the link or the six-digit code in your invitation email, or approve with your own Nostr key in Amber (NIP-55) or another remote signer (NIP-46). There is no password to look after.</p>
-<p><b>This build contains no Google libraries.</b> No Google Play services and no Firebase: notifications come over UnifiedPush or the app's own live connection.</p>
-<p>The app talks to the SEQ1 service at terminal-api.seq1.net, which is not open source, and the app itself is closed source.</p>
+<p>Start with a chat. Grow into a computer.</p>
+<p><b>One conversation, everywhere.</b> Your chat follows you across your phone and your Mac, so you can pick up exactly where you left off.</p>
+<p><b>A computer when you need one.</b> Ask for more and SEQ1 Sessions works in your own private environment: files you choose, a full terminal (SSH and mosh), and email drafts and your calendar, only as far as you grant access.</p>
+<p><b>Sign in your way.</b> Use the link or six-digit code from your invitation email, or approve with your own Nostr key in Amber (NIP-55) or another remote signer (NIP-46). There is no password to look after.</p>
+<p><b>Private by design.</b> This build contains no Google libraries: no Google Play services and no Firebase. Notifications arrive over UnifiedPush or the app's own live connection.</p>
+<p>SEQ1 Sessions is available by invitation. Ask for yours at sessions.seq1.net.</p>
